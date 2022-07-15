@@ -1,0 +1,39 @@
+#box-1{
+    background-color: blanchedalmond;
+    /* border: width of line | type of line | color */
+    border: 3px dashed red;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+#box-2{
+    background: #333;
+    color: #fff;
+    padding: 30px;
+    border-top: 3px solid blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+}
+#box-3{
+    color: white;
+    padding: 30px;
+    background-image: url(/images/stars.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#box-4{
+    color: #333;
+    background-color: yellow;
+    padding: 30px;
+    border: 5px dotted blue;
+    border-radius: 10px;
+    background-image: url("/images/leaf.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,29 @@
+h1{
+    /* Type One: Color Name */
+    color: red;
+    background-color: rgb(4, 255, 150);
+    padding: 50px;
+    text-align: center;
+}
+
+h2{
+    /* Type Two: RGB Value = Red, Green, Blue */
+    color: rgb(255,200,0);
+    background-color: rgb(22, 96, 145);
+    padding: 50px;
+    text-align: center;
+}
+h3{
+    /* Type Three: RGB Value = Red, Green, Blue, Alpha (Opacity) */
+    color: rgba(255, 200, 0, 0.479);
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;
+}
+h4{
+    /* Type Four: Hex Code*/
+    color: #f4f4f4;
+    background-color: rgb(255, 0, 0);
+    padding: 50px;
+    text-align: center;
+}

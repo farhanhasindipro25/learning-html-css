@@ -1,0 +1,50 @@
+
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #4c6ca0;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.navbar li{
+    float: left;
+}
+
+/* <a> tag is an inline element for which padding top and bottom cannot be applied. Thus, it needs to be converted into a block level element */
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.navbar li a:hover{
+    background-color: #446190;
+    color: white;
+}
+
+.side-menu{
+    list-style: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+.side-menu li{
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: 1px dotted #ddd;
+}
+.side-menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+.side-menu li a:hover {
+    color: coral;
+  }
+.side-menu li:last-child {
+    border: none;
+  }
