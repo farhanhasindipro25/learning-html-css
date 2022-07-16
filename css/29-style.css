@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+}
+thead{
+    background-color: antiquewhite;
+}
+tbody{
+    background-color: bisque;
+}
+td, th{
+    border: 1px solid lightgrey;
+    padding: 20px 50px;
+    text-align: center;
+}

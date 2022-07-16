@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.position{
+    position: relative;
+}
+/* Relative */
+
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px dotted black;
+    /* Position relative to it's origin point */
+    position: relative;
+    left: 30px;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+}
+/* Absolute */
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px dotted black;
+    /* Considers parent's position */
+    /* top:0px will take it to the root(top of viewport) if their is no position for a parent */
+    /* If there is a position for a parent, then top:0px will take parent's root position */
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+/* Sticky */
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: fuchsia;
+    border: 1px dotted black;
+    position: sticky;
+    top: 0px;
+    /* The sticky position will apply from the top value */
+}
+/* Fixed */
+#four{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 0);
+    border: 1px dotted black;
+    position: fixed;
+    left: 300px;
+    top: 300px;
+    right: 300px;
+    bottom: 300px;
+    /* Fixed throughout the whole viewport */
+}
+
+.dummy{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 1px dotted black;
+}
+
+
+
+.swimming{
+
+}
+/* The larger the value of z-index, visibility of that element will be on the most top. */
+#boy{
+    position:relative;
+    top: 75px;
+    z-index: 2;
+}
+#ring{
+    /* Position relative to it's origin point */
+    position: relative;
+    z-index: 1;
+
+}
+#water{
+    position: relative;
+    top: -75px;
+}

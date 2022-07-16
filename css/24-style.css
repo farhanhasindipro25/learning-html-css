@@ -1,0 +1,18 @@
+h3{
+    text-align: center;
+    color: aqua;
+    padding: 30px;
+    background-color: rgb(8, 6, 20);
+}
+h3:hover{
+    text-align: center;
+    color: rgb(8, 6, 20);
+    padding: 30px;
+    background-color: lawngreen;
+}
+.middle:focus{
+    font-weight: bolder;
+}
+a:visited{  
+    color:red;
+}

@@ -1,0 +1,20 @@
+/* Two colons for Pseudo Elements */
+/* Pseudo Elements are unselectable using the mouse */
+
+h3::before{
+    content: 'Hello ';
+}
+.special::after{
+    content: "Bye ";
+    color: antiquewhite;
+    margin-left: 10px;
+    background-color: green;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.is-required::after {
+    content: "*";
+    color: red;
+    padding-left: 2px;
+  }

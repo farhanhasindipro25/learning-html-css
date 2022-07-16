@@ -1,0 +1,35 @@
+h1{
+    background-color: cadetblue;
+    color: black;
+}
+
+#head{
+    color: red;
+    background-color: yellow;
+}
+
+.header{
+    color: chartreuse;
+    background-color: cornflowerblue;
+}
+
+h1{
+    color: violet !important;
+}
+h1{
+    color: blue;
+}
+
+p{
+    background-color: red;
+}
+
+/* Specificity Priority */
+/* Lowest to Highest */
+/* 
+Internal CSS > External CSS
+1. Regular Tag 
+2. Class  
+3. Id  
+4. Inline CSS   
+5. !important */

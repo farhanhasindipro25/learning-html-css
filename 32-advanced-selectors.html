@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+        /* if div is a direct parent of p */
+        /* If p is an immediate child of div */
+        /* All direct children (<p> tags) of the parent (<div>) are selected */
+        div > p {
+            background-color: green;
+        }
+        /* if p is right after div */
+        /* Back-to-back parent tags */
+        div + p {
+            background: yellow;
+        }
+        /* if p is preceded by a ul with same parent */
+        /* Back-to-back tags within same parent */
+        ul ~ p {
+            background: red;
+            color: white;
+        }
+        /* target attribute */
+        a[target] {
+            background: orange;
+        }
+
+        /* target specific attribute */
+        input[type="email"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+  
+        <ul>
+          <li>Item 1</li>
+          <li><p>Lorem ipsum dolor sit amet.</p></li>
+          <li>Item 3</li>
+        </ul>
+  
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  
+    <p>Lorem ipsum dolor sit amet.</p>
+  
+    <a href="#">Page 1</a>
+    <a href="#">Page 2</a>
+  
+    <a href="http://google.com" target="_blank">Google</a>
+  
+    <br /><br />
+  
+    <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

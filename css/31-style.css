@@ -1,0 +1,41 @@
+/* custom properties or variables */
+:root{
+    --dark-border: 2px solid black; 
+    --main-color: orange;
+    --border-color: slateblue;
+    --background-color: slateblue;
+    --side-width: 200px;
+}
+
+
+h1{
+    color: var(--main-color);
+}
+p{
+    color: var(--main-color);
+}
+footer{
+    border: var(--dark-border);
+    color: var(--main-color);
+    clear: both;
+}
+h2{
+    border: 2px solid var(--border-color);
+    color: var(--main-color);
+}
+h6{
+    color: aliceblue;
+    background-color: var(--background-color);
+}
+.side-nav, .blogs{
+    float: left;
+    height: 500px;
+}
+aside{
+    background-color: springgreen;
+    width: var(--side-width);
+}
+.blogs{
+    background-color: tomato;
+    width: calc(100% - var(--side-width));
+}
