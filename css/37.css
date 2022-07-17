@@ -1,0 +1,21 @@
+.fa-cart-plus{
+    padding: 15px 15px;
+}
+button{
+    background-color: lawngreen;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    padding-right: 35px;
+}
+.fa-star,.fa-star-half-stroke{
+    font-size: 15px;
+    color: orange;
+}
+.fa-users{
+    padding: 15px 15px;
+}
+.fa-brands{
+    font-size: 24px;
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+.box-1{
+    float: left;
+    width: 100px;
+    max-height: 400px;
+    padding: 30px;
+    margin: 20px;
+    color: wheat;
+    background-color: tomato;
+}
+
+.box-2{
+    float: right;
+    width: 100px;
+    min-height: 200px;
+    padding: 30px;
+    margin: 20px;
+    color: wheat;
+    background-color:coral;
+}

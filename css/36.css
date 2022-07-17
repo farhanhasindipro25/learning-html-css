@@ -1,0 +1,71 @@
+/* Types of Overflow in CSS
+1. visible(default)
+2. hidden
+3. scroll
+4. auto
+*/
+
+.box-1{
+    width: 500px;
+    height: 180px;
+    border: 3px solid steelblue;
+    margin-bottom: 30px;
+
+}
+.box-2{
+    width: 500px;
+    height: 170px;
+    border: 3px solid steelblue;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.box-3{
+    width: 500px;
+    height: 170px;
+    border: 3px solid steelblue;
+    margin-bottom: 30px;
+    overflow: scroll;
+}
+
+.box-4{
+    width: 500px;
+    height: 170px;
+    border: 3px solid steelblue;
+    margin-bottom: 30px;
+    overflow-y: scroll;
+}
+
+.box-5{
+    width: 500px;
+    height: 170px;
+    border: 3px solid steelblue;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+.ellipsis-1{
+    width: 100px;   
+    border: 3px solid steelblue;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.ellipsis-2{
+    width: 100px;   
+    border: 3px solid steelblue;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+}
+
+.ellipsis-3{
+    width: 100px;   
+    border: 3px solid steelblue;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.short-txt{
+    white-space: nowrap;
+}
+.short-txt-e{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
