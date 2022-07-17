@@ -1,0 +1,40 @@
+
+.box-1{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: coral;
+    color: white;
+    /* offset-x offset-y color */
+    box-shadow: 8px 8px teal;
+}
+.box-2{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: coral;
+    color: white;
+    /* offset-x offset-y blur-radius color */
+    box-shadow: 5px 5px 20px red;
+}
+.box-3{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: coral;
+    color: white;
+    /* Negative values */
+    /* -offset-x = left side | -offset-y = top side | color */
+    box-shadow: -5px -5px blue;
+}
+.box-4{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: coral;
+    color: white;
+    /* Multiple shadows */
+    box-shadow: 5px 5px teal, -5px -5px red;
+}
+
+        /* understanding rules */
+        /* positive offset x = right side shadow */
+        /* positive offset y = bottom side shadow */
+        /* negative offset x = left side shadow */
+        /* negative offset y = top side shadow */

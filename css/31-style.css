@@ -1,4 +1,7 @@
 /* custom properties or variables */
+
+/* Global Scope */
+/* All vairables of the global scope can be accessed within any selectors. But if variables are declared within a certain class, then they are accessible only within that class. */
 :root{
     --dark-border: 2px solid black; 
     --main-color: orange;
